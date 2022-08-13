@@ -1,1 +1,157 @@
-style
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 20px 150px 120px 150px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 180px 100px 180px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+}
+
+.hero-image {
+    height: auto;
+    width: 500px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    color: grey;
+}
+
+.hero {
+    display: flex;
+    padding-top: 120px;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;   
+    flex: auto; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.right {
+    display: flex;
+    flex: auto;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.text {
+    
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.across {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    color: white;
+    border: none;
+    border-color: white;
+    background-color: #3882F6;
+    padding: 12px 38px;
+    border-radius: 12px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+
