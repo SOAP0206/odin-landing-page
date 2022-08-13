@@ -166,7 +166,6 @@ ul {
 }
 
 button {
-    color: white;
     border-style: solid;
     border-color: white;
     background-color: #3882F6;
@@ -179,6 +178,11 @@ button {
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 
